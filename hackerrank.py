@@ -19,6 +19,8 @@ Input Format
 Read , the year to test.
 """
 
+## Logic: We have to go backwards in the directions, to handle the most specific conditions first, then more and more broad conditions from there.
+
 
 def is_leap(year):
     if year % 400 == 0:
